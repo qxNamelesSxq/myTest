@@ -31,6 +31,7 @@ const TaskItem = ({ id, task, date, checked, handleCheck, handleRemove, handleEd
                 </button>
               </div>
             </>
+
         ) : (
             <form onSubmit={handleSubmitEdit}>
               <label>
