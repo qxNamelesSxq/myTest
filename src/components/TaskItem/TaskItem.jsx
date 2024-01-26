@@ -48,4 +48,5 @@ const TaskItem = ({ id, task, date, checked, handleCheck, handleRemove, handleEd
   );
 };
 
+
 export default TaskItem;
