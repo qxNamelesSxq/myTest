@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 4px;
+  background: none;
+  border: 1px solid rgba(137, 43, 226, 0.5);
+  color: blueviolet;
+}
+
+.card {
+  padding: 5px;
+  width: 400px;
+  height: 550px;
+  background-color: rgba(137, 43, 226, 0.1);
+  border: 1px solid rgba(137, 43, 226, 0.2);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(137, 43, 226, 0.2);
+}
+
+.name {
+  text-align: center;
+  color: blueviolet;
+  border-bottom: 1px solid rgba(137, 43, 226, 0.2);
+}
+
+.tasks {
+  height: 400px;
+  overflow: auto;
+}
+
+.tasks::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.tasks::-webkit-scrollbar-track {
+  background-color: transparent;
+}

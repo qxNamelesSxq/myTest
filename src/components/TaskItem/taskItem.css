@@ -1,0 +1,59 @@
+.task {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(137, 43, 226, 0.2);
+  border-radius: 5px;
+}
+
+.info {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin: 5px;
+  border: 0px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+  padding: 5px;
+  background: rgba(137, 43, 226, 0);
+  border: 1px solid rgba(137, 43, 226, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete:hover {
+  background: rgba(137, 43, 226, 0.2);
+  border: 1px solid rgba(137, 43, 226, 0.5);
+}
+
+.delete-button {
+  width: 20px;
+}
+
+.edit {
+  padding: 5px;
+  background: rgba(137, 43, 226, 0);
+  border: 1px solid rgba(137, 43, 226, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit:hover {
+  background: rgba(137, 43, 226, 0.2);
+  border: 1px solid rgba(137, 43, 226, 0.5);
+}
+
+.edit-button {
+  width: 20px;
+}

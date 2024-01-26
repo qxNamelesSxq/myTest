@@ -1,0 +1,17 @@
+.add {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.add-label-task {
+  flex: 2;
+}
+
+.add-task {
+  width: 100%;
+}
+
+.add-button {
+  cursor: pointer;
+}
