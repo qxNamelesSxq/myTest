@@ -22,12 +22,12 @@ const Filter = ({ setFilter, taskDate, setTaskDate }) => {
             <button className="sorting-button" onClick={() => handleFilter("progress")}>
                 In progress
             </button>
-            <input
-                value={taskDate}
-                onChange={handleDateChange}
-                type="date"
-                name="taskDate"
-            />
+            {/*<input*/}
+            {/*    value={taskDate}*/}
+            {/*    onChange={handleDateChange}*/}
+            {/*    type="date"*/}
+            {/*    name="taskDate"*/}
+            {/*/>*/}
         </div>
     );
 };

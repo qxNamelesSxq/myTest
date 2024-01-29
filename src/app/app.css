@@ -14,7 +14,7 @@ input {
 
 .card {
   padding: 5px;
-  width: 400px;
+  width: 1000px;
   height: 550px;
   background-color: rgba(137, 43, 226, 0.1);
   border: 1px solid rgba(137, 43, 226, 0.2);
